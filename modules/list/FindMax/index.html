@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example FindMax</title>
+    <!-- 引入 Bootstrap CSS 文件 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* 设置纵向导航栏容器的样式 */
+        #verticalNavbar {
+          width: 200px; 
+          background-color: #333; 
+          padding: 20px; /* 内边距 */
+          float: left;
+        }
+    
+        /* 设置导航链接的样式 */
+        #verticalNavbar a {
+          display: block; /* 将链接显示为块级元素，使其占据整个宽度 */
+          color: white; /* 设置文字颜色 */
+          text-decoration: none; /* 移除下划线 */
+          padding: 10px; /* 设置内边距 */
+          margin-bottom: 10px; /* 设置底部外边距，用于分隔链接 */
+          border-radius: 5px; /* 设置圆角 */
+        }
+    
+        /* 设置导航链接的悬停状态样式 */
+        #verticalNavbar a:hover {
+          background-color: #555; /* 悬停时改变背景颜色 */
+        }
+      </style>    
+
+</head>
+<body>
+
+      <!-- 基本导航栏 -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-main">
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io">Home</a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/modules">Modules</a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/discussions">Discussions</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 纵向导航栏 -->
+    <div id="verticalNavbar">
+        <a href="#">Find Max</a>
+        <a href="https://duuan.github.io/modules/list/BubbeSort">Bubble Sort</a>
+    </div>
+
+
+    <div style="margin-left: 220px; padding: 10px 200px 10px 10px;">
+
+        <h1>List exercise: Find Max</h1>
+        <p>In this exercise, we try to find the maximum number in a list.</p>
+
+        <h3>Method</h3>
+        <p>First set the first element as the variable MAX (i.e. MAX = list[0]), 
+            then we will compare the following elements one by one. 
+            If the compared element is larger than the value of the variable MAX, 
+            the value of the variable MAX is then changed to current compared element.</p>
+
+        <iframe src="https://py-kkm72wktz-duuans-projects.vercel.app/" width="800" height="600" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
