@@ -9,13 +9,13 @@
 
     <style>
 
-        img {
+/*         img {
             position: absolute;
             right: 0px;
             top: 0px;
             width: 261px;
             height: auto;
-        }
+        } */
         
         /* 设置纵向导航栏容器的样式 */
         #verticalNavbar {
@@ -55,7 +55,7 @@
         </div>
     </nav>
 
-    <img src="../../../XJTLU_logo.jpg" alt="logo">
+    <img src="../../../XJTLU_logo.jpg" alt="logo" style="position: absolute; top: 0px; right: 0px; width: 261px; height: auto">
 
     <!-- 纵向导航栏 -->
     <div id="verticalNavbar">
@@ -69,10 +69,35 @@
         <h1>For loop exercise: Bubble Sort</h1>
         <p>In this exercise, we will learn about bubble sort algorithm</p>
 
-        <h3>Method</h3>
-        <p>Bubble sort algorithm.</p>
+        <h3>Bubble Sort Algorithm Introduction</h3>
+        <p>
+          
+          Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, 
+          compares adjacent elements, and swaps them if they are in the wrong order. 
+          The pass through the list is repeated until the list is sorted. 
+          This algorithm gets its name because smaller elements "bubble" to the top of the list with each pass.
+          <br><br>
 
-        <iframe src="https://chat-bot-v1-git-tryduansidea2-s-aulgoodmans-projects.vercel.app/" width="900" height="600" frameborder="0"></iframe>
+          The basic steps of the Bubble Sort algorithm are as follows:<br>
+          
+          1. Start from the beginning of the list.<br>
+          2. Compare the first two elements. If the first element is greater than the second, swap them.<br>
+          3. Move to the next pair of elements and repeat step 2.<br>
+          4. Continue this process, moving towards the end of the list.<br>
+          5. After the first pass, the largest element is guaranteed to be at the end of the list.<br>
+          6. Repeat the process, ignoring the already sorted elements, until the entire list is sorted.<br>
+          Bubble Sort is easy to understand but may not be efficient for large datasets due to its quadratic time complexity.<br>
+        </p>
+
+        <div style="width: 400px; height: 250px">
+          <h3>Pseudocode Example</h3>
+          <img src="./pseudocode.jpg" alt="bubblesort_pseudocode" style="width: 350px; height: auto; border: 1px solid #ccc;">  
+        </div>
+
+        <div style="width: 1000px; height: 1000px">
+          <h3>Practice with VisualCodeChat</h3>
+          <iframe src="https://chat-bot-v1-git-tryduansidea2-s-aulgoodmans-projects.vercel.app/" width="900" height="600" frameborder="0"></iframe>
+        </div>
     </div>
 </body>
 </html>
