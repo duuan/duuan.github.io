@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../../page_icon.jpg" type="image/jpg">
+    <title>Example SearchNumber</title>
+    
+    <!-- 引入 Bootstrap CSS 文件 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <style>
+        /* 设置纵向导航栏容器的样式 */
+        #verticalNavbar {
+          width: 150px; /* 设置导航栏的宽度 */
+          background-color: #333; /* 设置背景颜色 */
+          padding: 20px; /* 设置内边距 */
+          float: left;
+        }
+    
+        /* 设置导航链接的样式 */
+        #verticalNavbar a {
+          display: block; /* 将链接显示为块级元素，使其占据整个宽度 */
+          color: white; /* 设置文字颜色 */
+          text-decoration: none; /* 移除下划线 */
+          padding: 10px; /* 设置内边距 */
+          margin-bottom: 10px; /* 设置底部外边距，用于分隔链接 */
+          border-radius: 5px; /* 设置圆角 */
+        }
+    
+        /* 设置导航链接的悬停状态样式 */
+        #verticalNavbar a:hover {
+          background-color: #555; /* 悬停时改变背景颜色 */
+        }
+
+        .mydiv {
+          background: #e8ede6;
+          padding: 20px;
+        }
+      </style>    
+
+</head>
+<body>
+
+      <!-- 基本导航栏 -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-main">
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="../../../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="../../../modules/index.html">Modules</a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="../../../discussions/index.html">Discussions</a></li>
+            </ul>
+        </div>
+    </nav>
+    <img src="../../../XJTLU_logo.jpg" alt="logo" style="position: absolute; right: 0px; top: 0px; width: 261px; height: auto;">
+
+    <!-- 纵向导航栏 -->
+    <div id="verticalNavbar">
+        <a href="../FindMax/index.html">Find Max</a>
+        <a href="#">Search Number</a>
+    </div>
+
+
+    <div style="margin-left: 220px; padding: 10px 200px 10px 10px;">
+
+        <h1>练习: Search Number</h1>
+        <p>在这个练习中，我们要判断一个特定的数字是否在列表中。</p>
+
+        <div style="height: 20px; width: auto;"> </div>
+
+        <div class="mydiv">
+          <h2><b>聊天机器人使用规范</b></h2>
+
+          <h3>在使用聊天机器人时，请...</h3>
+
+          <p>
+            1. 积极提问，但请尽量把问题描述详细，不使聊天机器人误解；<br>
+            2. 请尽量跟随聊天机器人的提示回答问题或提出问题，请仔细阅读bot的回复；<br>
+            3. 在聊天过程中，如果聊天机器人的某个回复你没理解，请立刻提问，请不要等到进行下一个教学步骤时再提问；<br>
+            4. 教学结束后，如需再次学习或想再次提问，请重新创建对话。<br>          
+          </p>
+        </div>
+
+        <div style="height: 20px; width: auto;"> </div>
+
+        <div >
+          <h3>Practice with VisualCodeChat!</h3>
+          <h3>开始练习!</h3>
+          <iframe src="https://chat-bot-v1-git-tryduansidea2-s-aulgoodmans-projects.vercel.app/" width="1200" height="1000" frameborder="0"></iframe>
+          
+        </div>
+        
+    </div>
+</body>
+</html>
