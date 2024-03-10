@@ -3,74 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ForLoop</title>
+  <title>For Loop</title>
   <link rel="icon" href="../../page_icon.ico" type="image/x-icon">
   <!-- 引入 Bootstrap CSS 文件 -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <style>
-  img {
-      position: absolute;
-      right: 0px;
-      top: 0px;
-      width: 261px;
-      height: auto;
-  }
-</style>
+    .mydiv {
+        background: #e8ede6;
+    }
+    .mydiv2 {
+        padding: 20px;
+    }
+    .mydiv3{
+      background: #eeece2;
+      padding: 20px;
   
+    }
+    .fontsize{
+      font-size: 30px;
+    }
+  </style>
+
+
 <body>
 
   <!-- 导航栏 -->
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-main">
-            <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/">Home</a></li>
-            <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/modules/">Modules</a></li>
-            <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/discussions/">Discussions</a></li>
+            <li class="nav-item"><a class="nav-link font-weight-bold" href="../../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link font-weight-bold" href="../../modules/index.html">Modules</a></li>
+            <li class="nav-item"><a class="nav-link font-weight-bold" href="../../discussions/index.html">Discussions</a></li>
         </ul>
         </div>
     </nav>
 
-  <img src="../../XJTLU_logo.jpg" alt="logo">
+    <img src="../../XJTLU_logo.jpg" alt="logo" style="position: absolute; right: 0px; top: 0px; width: 261px; height: auto;">
 
-  <div class="container">
-    <h1>
-      For Loop
-    </h1>
-    <p>
-      We look at the for loop in Python.
-    </p>
+    <div class="container">
+        <h1>Python For Loop (for循环)</h1>
+        <p>在这里学习for循环！</p>
 
+        <div class="mydiv">
+            <div class="mydiv2">
+
+                <p>
+                    Python for循环可以遍历任何序列的项目，如一个列表或者一个字符串。<br>
+                    <br>
+                    for循环的语法格式如下：<br>
+
+                    <div class="mydiv3">
+                        <pre>
+                            <code>
+                                for item in sequence:
+                                    statement...
+                            </code>
+                        </pre>
+                    </div>
+
+                </p>
+
+            </div>
+        </div>
+
+        <div style="height: 30px; width: auto;"> </div>
+
+        <div class="mydiv">
+            <div class="mydiv2">
+
+                <h4>break语句</h4>
+                <p>
+                    break语句用来终止循环语句，即循环条件没有False条件或者序列还没被完全递归完，也会停止执行循环语句。<br>
+                    break语句用在while和for循环中。<br>
+                    如果您使用嵌套循环，break语句将停止执行最深层的循环，并开始执行下一行代码。 <br>
+                    <br>
+                    举例：<br>
+
+                    <div class="mydiv3">
+                        <pre>
+                            <code>
+                                list1 = [1, 2, 3, 4]
+
+                                for i in list1:
+                                    if i == 1:
+                                        break
+                            </code>
+                        </pre>
+                    </div>                  
+                </p>
+                
+            </div>
+        </div>
+
+    <h3>Exercises</h3>
     <ul>
         <li>
-            <p>Videos</p>
-            <ul>
-                <li>
-                    <div>
-                        <a href="https://duuan.github.io/modules/forloop/" target="_blank"> video link </a>
-                    </div>
-                </li>
-            </ul>
+            <div>
+                <a href="./FindMax/index.html" target="_blank">Find maximum number in a list</a>
+            </div>
         </li>
         <li>
-            <p>Exercises</p>
-            <ul>
-                <li>
-                    <div>
-                        <a href="https://duuan.github.io/modules/forloop/FindMax" target="_blank">Find maximum number in a list</a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="https://duuan.github.io/modules/forloop/BubbleSort" target="_blank">Bubble Sort algorism</a>
-                    </div>
-                </li>
-            </ul>
+            <div>
+                <a href="./SearchNumber/index.html" target="_blank">Bubble Sort</a>
+            </div>
         </li>
     </ul>
+
+
+    <div style="height: 500px; width: auto;"> </div>
 
   </div>
 
 </body>
-</html>
+</html
