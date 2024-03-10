@@ -3,26 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../../page_icon.ico" type="image/x-icon">
+    <link rel="icon" href="../../../page_icon.jpg" type="image/jpg">
     <title>Example FindMax</title>
     <!-- 引入 Bootstrap CSS 文件 -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-
-        img {
-                position: absolute;
-                right: 0px;
-                top: 0px;
-                width: 261px;
-                height: auto;
-        }
-        
         /* 设置纵向导航栏容器的样式 */
         #verticalNavbar {
-          width: 200px; 
-          background-color: #333; 
-          padding: 20px; /* 内边距 */
+          width: 150px; /* 设置导航栏的宽度 */
+          background-color: #333; /* 设置背景颜色 */
+          padding: 20px; /* 设置内边距 */
           float: left;
         }
     
@@ -40,6 +31,11 @@
         #verticalNavbar a:hover {
           background-color: #555; /* 悬停时改变背景颜色 */
         }
+
+        .mydiv {
+          background: #e8ede6;
+          padding: 20px;
+        }
       </style>    
 
 </head>
@@ -49,34 +45,43 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-main">
-                <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io">Home</a></li>
-                <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/modules">Modules</a></li>
-                <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/discussions">Discussions</a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="../../../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="../../../modules/index.html">Modules</a></li>
+                <li class="nav-item"><a class="nav-link font-weight-bold" href="../../../discussions/index.html">Discussions</a></li>
             </ul>
         </div>
     </nav>
-
-    <img src="../../../XJTLU_logo.jpg" alt="logo">
+    <img src="../../../XJTLU_logo.jpg" alt="logo" style="position: absolute; right: 0px; top: 0px; width: 261px; height: auto;">
 
     <!-- 纵向导航栏 -->
     <div id="verticalNavbar">
         <a href="#">Find Max</a>
-        <a href="https://duuan.github.io/modules/forloop/BubbleSort">Bubble Sort</a>
+        <a href="../SearchNumber/index.html">Search Number</a>
     </div>
 
 
     <div style="margin-left: 220px; padding: 10px 200px 10px 10px;">
 
-        <h1>For loop exercise: Find Max</h1>
-        <p>In this exercise, we try to find the maximum number in a list.</p>
+        <h1>练习: Find Max</h1>
+        <p>在这个练习中，我们的目标是找出一个列表中的最大值。</p>
 
-        <h3>Method</h3>
-        <p>First set the first element as the variable MAX (i.e. MAX = list[0]), 
-            then we will compare the following elements one by one. 
-            If the compared element is larger than the value of the variable MAX, 
-            the value of the variable MAX is then changed to the current compared element.</p>
 
-        <iframe src="https://chat-bot-v1-git-tryduansidea2-s-aulgoodmans-projects.vercel.app/" width="900" height="600" frameborder="0"></iframe>
+        <div class="mydiv">
+          <h2><b>聊天机器人使用规范</b></h2>
+
+          <h3>在使用聊天机器人时，请...</h3>
+
+          <p>
+            1. 积极提问，但请尽量把问题描述详细，不使聊天机器人误解；<br>
+            2. 请尽量跟随聊天机器人的提示回答问题或提出问题，请仔细阅读bot的回复；<br>
+            3. 在聊天过程中，如果聊天机器人的某个回复你没理解，请立刻提问，请不要等到进行下一个教学步骤时再提问；<br>
+            4. 教学结束后，如需再次学习或想再次提问，请重新创建对话。<br>          
+          </p>
+        </div>
+        <div style="height: 20px; width: auto;"> </div>
+
+
+        <iframe src="https://visualcodechat.zeabur.app/" width="800" height="600" frameborder="0"></iframe>
     </div>
 </body>
 </html>
