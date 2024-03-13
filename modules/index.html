@@ -6,7 +6,7 @@
   <title>Modules</title>
   <link rel="icon" href="../page_icon.ico" type="image/x-icon">
   <!-- 引入 Bootstrap CSS 文件 -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!--   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <style>
        .card {
@@ -23,11 +23,32 @@
         width: 261px;
         height: auto;
       }
+
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+        }
+        .navbar {
+          background-color: green;
+          overflow: hidden;
+        }
+        .navbar a {
+          float: left;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 20px;
+          text-decoration: none;
+        }
+        .navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
     </style>
 </head>
   <body>
     <!-- 导航栏 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+<!--     <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-main">
               <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/">Home</a></li>
@@ -35,7 +56,13 @@
               <li class="nav-item"><a class="nav-link font-weight-bold" href="https://duuan.github.io/discussions">Discussions</a></li>
           </ul>
         </div>
-    </nav>
+    </nav> -->
+
+    <div class="navbar">
+      <a href="https://duuan.github.io/">Home</a>
+      <a href="https://duuan.github.io/modules">Modules</a>
+      <a href="https://duuan.github.io/discussions">Discussions</a>
+    </div>
 
     <img src="../XJTLU_logo.jpg" alt="logo">
 
